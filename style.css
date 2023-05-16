@@ -1,0 +1,130 @@
+body {
+  background-image: url("wefwef-01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+nav a {
+  color: #fcfafa;
+  box-shadow: 5px 10px 18px #120d3b; 
+  text-decoration: none; 
+  padding: 5px;
+  font-size: 18px;
+  margin-left: 20px; 
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+nav a:hover {
+  transition-duration: 0.4s;
+  color: rgb(235, 235, 241);
+  box-shadow: 5px 10px 18px #513cec;
+  /* text-decoration: none; */
+  padding: 5px;
+  font-size: 18px;
+
+
+}
+
+nav {
+  margin-top: 40px;
+  text-align: end;
+  margin-right: 100px;
+}
+
+.first {
+  font-size: 20px;
+  color: rgb(35, 35, 218);
+  border-bottom: 4px solid rgb(255, 187, 0);
+  border-radius: 4px;
+  height: 2px;
+}
+
+.first:hover {
+  font-size: 20px;
+  color: rgb(7, 7, 184);
+  border-bottom: 4px solid rgb(255, 187, 0);
+  border-radius: 4px;
+
+
+}
+
+/* .first::after{
+  width: 50%;
+  font-size: 20px;
+  color: rgb(3, 3, 77);
+  border-bottom: 4px solid rgb(255, 187, 0);
+  
+} */
+h1 {
+  color: #fffdfd;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.scroll {
+  margin-top: 100px;
+  margin-right: 100px;
+  height: 500px;
+  background-color: rgb(3, 3, 77);
+  width: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px #3b23f1;
+
+}
+
+.scroll_bar {
+  height: 50px;
+  background-color: rgb(230, 208, 8);
+  border-radius: 4px;
+  width: 8px;
+  margin: 1px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.box_1 {
+  height: 100%;
+  width: 30%;
+  text-align: end;
+}
+
+p {
+  color: #f8f3f3;
+  margin-left: 200px;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.btn {
+  background-color: rgb(230, 208, 8);
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(187, 136, 27);
+  transition-duration: 0.4s;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+.btn:hover {
+  background-color: rgb(161, 128, 28);
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(194, 189, 178);
+  transition-duration: 0.4s;
+  height: 50px;
+  width: 150px;
+}
